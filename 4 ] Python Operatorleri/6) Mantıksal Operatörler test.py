@@ -1,4 +1,4 @@
-'''# 1- Girilen bir sayının 0-100 arasında olup olmadığını kontrol ediniz.
+# 1- Girilen bir sayının 0-100 arasında olup olmadığını kontrol ediniz.
 
 sayi = int(input('Bir sayi Giriniz : '))
 result = ( 0 < sayi < 100 )
@@ -55,7 +55,7 @@ print(f'a sorusuna göre geçme durumu : {resulta} ')
 
 resultb = (ortalama >= 50) or (final >= 70)
 print(f'b seçeneğine göre geçme durumu : {resultb}')
-'''
+
 # 6- Kişinin ad, kilo ve boy bilgilerini alıp kilo endekslerini hesaplayınız.
 #    Formül: (Kilo / boy uzunluğunun karesi)
 #    Aşağıdaki tabloya göre kişi hangi gruba girmektedir.
