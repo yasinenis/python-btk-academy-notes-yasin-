@@ -32,7 +32,7 @@ class Github:
     def createRepository(self, name):
         response = requests.post(
             self.api_url+'/user/repos',
-            headers={'Authorization': 'Token ' + self.token},
+            headers={'Authorization': 'Token ' + self.token},   # github için token kullanımı güncellenmiş bu şekilde artık 
             json={
             "name": name,
             "description": "This is your first repository",
